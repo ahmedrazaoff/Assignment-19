@@ -92,24 +92,11 @@ document.write("<br>" + colorsArray);
 colorsArray.pop();
 document.write("<br>" + colorsArray);
 
-// f. Ask the user at which index he/she wants to add a color
-// & color name. Then add the color to desired
-// position/index. . Display the updated array in your
-// browser.
-colorIndex = +prompt("which index You wants to add a color?");
-colorIndexName = prompt("Color Name?");
-colorsArray.push[colorIndex](colorIndexName );
-document.write("<br> " + colorsArray);
 
-// g. Ask the user at which index he/she wants to delete
-// color(s) & how many colors he/she wants to delete. Then
-// remove the same number of color(s) from user-defined
-// position/index. . Display the updated array in your
-// browser.
+//////////////////////////   BAKI KA NEXT app2 ME//////////////////
 
-deleteCount = +prompt("which index You wants to delete color?") ;
-startIndex =+prompt ("From Which Index You Want's To Start Deleting The Colors?");  
-colorsArray.slice(startIndex,deleteCount);
-document.write("<br> " + colorsArray);
+
+
+
 
 
